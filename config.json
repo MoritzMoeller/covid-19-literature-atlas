@@ -9,11 +9,11 @@
   },
   "text": {
     "more": "Each node in the graph is a publication, with the title annotated. An edge directed from one publication to another mean that the first publication has referenced the second. Gephi was used to find communities and create a layout of the graph. ",
-    "intro": "The literature on COVID-19, taken from https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge, is supplemented with Pubmed data on references.",
+    "intro": "The literature around COVID-19, taken from https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge, is supplemented with Pubmed data on references. Contact: moritz.moeller.home@gmail.com.",
     "title": "Literature on COVID-19: Reference Structure"
   },
   "legend": {
-    "edgeLabel": "References",
+    "edgeLabel": "Reference",
     "colorLabel": "Community",
     "nodeLabel": "Publication"
   },
@@ -24,7 +24,7 @@
   },
   "informationPanel": {
     "groupByEdgeDirection": true,
-    "imageAttribute": false
+    "imageAttribute": "Label"
   },
   "sigma": {
     "drawingProperties": {
